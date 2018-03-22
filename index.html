@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question 1B</title>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="div1">Div1</div>
+    <div class="div2">Div2</div>
+    <div class="div3">Div3</div>
+  </div>
+<script>
+document.getElementById('wrapper').addEventListener('click', ({ target }) => {
+  const { innerText } = target;
+  alert(`${innerText} has been clicked!`);
+});
+</script>
+</body>
+</html>

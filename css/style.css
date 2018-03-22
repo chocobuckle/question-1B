@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.div1 {
+  background-color: #c5d8f2;
+  height: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.div2,
+.div3 {
+  background-color: #f39645;
+  margin: 0 auto;
+}
+
+.div2 {
+  bottom: 550px;
+  height: 400px;
+  position: relative;
+  width: 50%;
+}
+
+.div3 {
+  align-items: center;
+  border: 2px solid #c5d8f2;
+  bottom: 850px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  position: relative;
+  width: 33%;
+}
+
+.div1,
+.div2,
+.div3 {
+  cursor: pointer;
+}
